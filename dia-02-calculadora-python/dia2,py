@@ -1,0 +1,30 @@
+while True:
+    entrada = input("\nIngresá una operación (+, -, *, /) o 'salir' para terminar: ")
+    if entrada == "salir":
+        print("Hasta luego!")
+        break
+
+    if entrada not in ("+", "-", "*", "/"):
+        print("Operación no válida. Usá +, -, * o /.")
+        continue
+
+    try:
+        num1 = float(input("Primer número: "))
+        num2 = float(input("Segundo número: "))
+    except ValueError:
+        print("Eso no es un número válido.")
+        continue
+
+    if entrada == "+":
+        resultado = num1 + num2
+    elif entrada == "-":
+        resultado = num1 - num2
+    elif entrada == "*":
+        resultado = num1 * num2
+    elif entrada == "/":
+        if num2 == 0:
+            print("Error: no se puede dividir por cero.")
+            continue
+        resultado = num1 / num2
+
+    print(f"Resultado: {num1} {entrada} {num2} = {resultado}")

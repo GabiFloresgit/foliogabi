@@ -1,0 +1,1 @@
+Escribí una calculadora en Python que pida dos números al usuario y una operación (+, -, *, /). Debe mostrar el resultado y manejar el error de división por cero. Usá un while True para que siga pidiendo operaciones hasta que el usuario escriba 'salir'.

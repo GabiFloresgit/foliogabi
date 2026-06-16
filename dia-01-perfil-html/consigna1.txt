@@ -1,0 +1,1 @@
+Creá una página HTML simple con: tu nombre como título principal (h1), una foto de perfil falsa (podés usar una imagen de placeholder.com), una sección 'Sobre mí' con 3 párrafos, y un footer con 'Contacto: tu@email.com'. Usá solo HTML y CSS interno (sin archivos externos).
