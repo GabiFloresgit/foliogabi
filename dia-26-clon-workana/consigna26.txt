@@ -1,0 +1,1 @@
+Creá un clon simplificado de la página de inicio de Workana (sin funcionalidad real). Debe tener: navbar con logo y links, hero section con buscador, sección de categorías con íconos, sección de freelancers destacados con tarjetas, y footer. Que sea pixel-perfect y responsive.

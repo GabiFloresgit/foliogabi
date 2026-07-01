@@ -1,0 +1,1 @@
+Día final: armá tu portfolio para Workana. Creá una carpeta con tus mejores 3 ejercicios resueltos. Para cada uno: revisá el código, agregá comentarios explicando qué hace cada parte, creá un README.txt describiendo el proyecto, la tecnología usada, y cómo ejecutarlo. Eso es tu portfolio.

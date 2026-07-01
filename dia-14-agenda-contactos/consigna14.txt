@@ -1,0 +1,1 @@
+Creá una clase Python 'Contacto' con atributos nombre, email, teléfono. Después creá una clase 'Agenda' que guarde una lista de contactos y tenga métodos: agregar, buscar por nombre, eliminar, y exportar todos a un archivo JSON. Probá todo con al menos 5 contactos.

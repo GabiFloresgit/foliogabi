@@ -1,0 +1,1 @@
+Creá un dashboard de métricas con HTML/CSS puro. Debe tener: 4 tarjetas con números grandes (visitas, ventas, usuarios, ingresos), una tabla de últimas transacciones, gráficos de barra hechos solo con CSS (sin librerías), y una sidebar de navegación.

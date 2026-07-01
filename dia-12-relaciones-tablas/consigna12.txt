@@ -1,0 +1,1 @@
+Creá un sistema de 3 tablas: clientes, pedidos, productos. Relacionálas con claves foráneas. Escribí: 1) Pedidos con nombre del cliente y del producto. 2) Total gastado por cliente. 3) Productos más pedidos. 4) Clientes que nunca pidieron nada (LEFT JOIN + IS NULL).

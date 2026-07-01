@@ -1,0 +1,1 @@
+Creá un juego de ahorcado en Python. El programa elige una palabra al azar de una lista, el usuario adivina letra por letra, tiene 6 intentos. Mostrá las letras adivinadas, los intentos restantes, y al terminar mostrá si ganó o perdió. Dibujá el ahorcado con texto ASCII.

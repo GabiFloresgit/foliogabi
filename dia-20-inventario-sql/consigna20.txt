@@ -1,0 +1,1 @@
+Creá un sistema de inventario SQL con: productos, proveedores, compras, y movimientos de stock. Escribí: 1) Productos con stock bajo (menos de 10 unidades). 2) Últimas compras por proveedor. 3) Movimientos del mes actual. 4) Proveedor con más productos suministrados.

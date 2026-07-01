@@ -1,0 +1,1 @@
+Creá una página que simule una oferta de servicios freelance. Debe tener: un header con tu nombre y título, 3 tarjetas de servicios (ej: 'Página web', 'Script Python', 'Consulta SQL') con nombre, descripción y precio, y un botón de contacto. Usá Flexbox para las tarjetas.

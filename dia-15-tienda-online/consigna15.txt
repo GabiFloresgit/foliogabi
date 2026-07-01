@@ -1,0 +1,1 @@
+Creá una tienda online simple con HTML/CSS. Debe tener: una grilla de 6 productos con imagen, nombre, precio y botón 'Agregar al carrito', un carrito lateral fijo que muestre los items y el total. Todo con CSS Grid y posicionamiento. Sin JavaScript obligatorio.

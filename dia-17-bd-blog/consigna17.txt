@@ -1,0 +1,1 @@
+Diseñá una base de datos para un sistema de blog: tablas usuarios, posts, comentarios, etiquetas, y post_etiquetas. Escribí: 1) Posts con autor y sus etiquetas. 2) Post con más comentarios. 3) Usuarios más activos. 4) Posts sin comentarios. 5) Etiquetas más usadas.

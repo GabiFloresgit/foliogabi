@@ -1,0 +1,1 @@
+Creá una landing page completa para un negocio inventado. Debe tener: navbar con links, sección hero con título y subtítulo, sección de características (3 columnas con iconos de texto), formulario de contacto con nombre/email/mensaje, y footer. Todo responsive usando media queries.

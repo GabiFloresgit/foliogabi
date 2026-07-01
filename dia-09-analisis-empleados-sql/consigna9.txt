@@ -1,0 +1,1 @@
+Creá una tabla 'empleados' (id, nombre, departamento, salario, fecha_ingreso). Escribí consultas para: 1) Promedio de salario por departamento. 2) Empleado con mayor salario de cada depto. 3) Empleados que ingresaron en el último año. 4) Departamentos con salario promedio mayor a la media general.

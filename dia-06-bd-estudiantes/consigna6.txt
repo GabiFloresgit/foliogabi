@@ -1,0 +1,1 @@
+Creá las tablas: estudiantes (id, nombre, edad, carrera) y notas (id, estudiante_id, materia, nota). Escribí consultas para: 1) Promedio de notas por estudiante. 2) Estudiantes con promedio mayor a 7. 3) La materia con mejor promedio general. 4) JOIN para ver nombre del estudiante con sus notas.

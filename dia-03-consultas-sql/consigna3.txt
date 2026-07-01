@@ -1,0 +1,1 @@
+Imaginá una tabla 'productos' con columnas: id, nombre, precio, categoria, stock. Escribí 5 consultas: 1) Todos los productos. 2) Productos con precio mayor a 1000. 3) Productos ordenados por precio descendente. 4) Los 3 más caros. 5) Cantidad de productos por categoría.

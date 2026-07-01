@@ -1,0 +1,1 @@
+Creá un formulario de contacto completo con HTML y CSS. Debe tener: campos nombre, email, teléfono, asunto (select con opciones), mensaje (textarea), y checkbox de aceptar términos. Estilá cada campo con foco resaltado, mensajes de error visibles, y un botón de envío. Sin JavaScript.

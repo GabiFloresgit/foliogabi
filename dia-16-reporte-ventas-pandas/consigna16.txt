@@ -1,0 +1,1 @@
+Escribí un script que lea un archivo Excel o CSV con datos de ventas (inventá los datos: fecha, vendedor, producto, monto). Genera un reporte que muestre: total por vendedor, mejor mes, producto más vendido, y promedio diario. Usá pandas.

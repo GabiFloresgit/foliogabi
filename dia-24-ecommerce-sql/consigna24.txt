@@ -1,0 +1,1 @@
+Diseñá y consultá una base de datos de e-commerce completa: usuarios, productos, categorias, pedidos, detalle_pedidos, resenas. Escribí: 1) Ranking de productos por revenue. 2) Usuarios que más gastaron. 3) Tasa de conversión por categoría. 4) Productos mejor calificados con más de 5 reseñas.

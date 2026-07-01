@@ -1,0 +1,1 @@
+Creá una página web de menú de restaurante con: sección de categorías (entradas, principales, postres, bebidas), tarjetas de platos con foto, nombre, descripción y precio, filtros por categoría usando solo CSS (:target o checkbox hack), y un diseño elegante con tipografía de Google Fonts.

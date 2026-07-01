@@ -1,0 +1,1 @@
+Escribí un script Python que lea un archivo de texto (inventá el contenido) y muestre: cantidad de palabras, cantidad de líneas, las 5 palabras más repetidas y cuántas veces aparece cada una. Guardá el resultado en un nuevo archivo 'reporte.txt'.

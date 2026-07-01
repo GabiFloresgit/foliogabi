@@ -1,0 +1,1 @@
+Creá un bot de Telegram con Python que responda comandos básicos: /start (bienvenida), /hora (hora actual), /chiste (devuelve un chiste al azar de una lista), /calculadora (recibe una expresión como '5+3' y devuelve el resultado). Usá la librería python-telegram-bot.

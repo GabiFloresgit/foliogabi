@@ -1,0 +1,1 @@
+Creá un CSV llamado 'ventas.csv' con columnas: producto, cantidad, precio_unitario. Agregá 10 filas de datos inventados. Luego escribí un script Python que lea el CSV, calcule el total vendido por producto (cantidad * precio), e imprima un reporte ordenado de mayor a menor.

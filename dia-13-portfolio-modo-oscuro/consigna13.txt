@@ -1,0 +1,1 @@
+Creá una página de portfolio personal con: foto, nombre, título, barra de habilidades (barras CSS que muestren porcentaje), sección de proyectos con 3 tarjetas, y links a redes. La página debe tener modo oscuro activable solo con CSS usando :root variables.

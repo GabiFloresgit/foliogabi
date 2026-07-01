@@ -1,0 +1,1 @@
+Creá una API REST simple con Python usando Flask. Endpoints: GET /productos (lista todos), GET /productos/<id> (uno solo), POST /productos (crear nuevo), PUT /productos/<id> (actualizar), DELETE /productos/<id>. Guardá los datos en un JSON. Probá con Postman o curl.

@@ -1,0 +1,1 @@
+Creá un scraper simple con Python que obtenga los titulares de noticias de un sitio web público (ej: quotes.toscrape.com que es legal para practicar). Extractá texto y autor de cada cita, guardálos en un JSON y en un CSV. Mostrá las 5 citas más cortas.

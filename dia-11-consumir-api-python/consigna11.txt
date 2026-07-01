@@ -1,0 +1,1 @@
+Creá un script que use la API pública de JSONPlaceholder (jsonplaceholder.typicode.com). Hacé un GET a /users, mostrá nombre y email de cada usuario. Después hacé un GET a /posts?userId=1 y mostrá los títulos de los posts del usuario 1. Usá la librería requests.

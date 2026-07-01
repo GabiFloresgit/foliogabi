@@ -1,0 +1,1 @@
+Automatizá el renombramiento de archivos con Python. El script debe: leer todos los archivos de una carpeta (inventá la carpeta con archivos de prueba), agregar la fecha de hoy como prefijo a cada nombre, convertir todos los nombres a minúsculas, y reemplazar espacios por guiones bajos.
