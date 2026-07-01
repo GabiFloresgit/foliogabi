@@ -1,0 +1,98 @@
+CREE TABLA
+
+sqlite> CREATE TABLE productos (
+(x1...> id INTEGER PRIMARY KEY,
+(x1...> nombre TEXT,
+(x1...> precio REAL,
+(x1...> categoria TEXT,
+(x1...> stock INTEGER
+(x1...> );
+
+
+CARGUE DATOS
+sqlite> INSERT INTO productos (nombre, precio, categoria, stock) VALUES ('Mouse gamer RGB', 3200.00, 'Perifericos', 25);
+sqlite> INSERT INTO productos (nombre, precio, categoria, stock) VALUES ('Teclado mecanico gamer', 8900.00, 'Perifericos', 15);
+sqlite> INSERT INTO productos (nombre, precio, categoria, stock) VALUES ('Auriculares gamer 7.1', 6500.00, 'Perifericos', 20);
+sqlite> INSERT INTO productos (nombre, precio, categoria, stock) VALUES ('Alfombrilla XXL', 750.00, 'Perifericos', 40);
+sqlite> INSERT INTO productos (nombre, precio, categoria, stock) VALUES ('Monitor 144hz 27 pulgadas', 45000.00, 'Monitores', 8);
+sqlite> INSERT INTO productos (nombre, precio, categoria, stock) VALUES ('Monitor curvo ultrawide', 68000.00, 'Monitores', 5);
+sqlite> INSERT INTO productos (nombre, precio, categoria, stock) VALUES ('Placa de video RTX', 320000.00, 'Componentes', 4);
+sqlite> INSERT INTO productos (nombre, precio, categoria, stock) VALUES ('Memoria RAM 16GB', 18500.00, 'Componentes', 18);
+sqlite> INSERT INTO productos (nombre, precio, categoria, stock) VALUES ('SSD 1TB', 22000.00, 'Componentes', 12);
+sqlite> INSERT INTO productos (nombre, precio, categoria, stock) VALUES ('Silla gamer', 95000.00, 'Muebles', 6);
+
+
+CONSULTA #1
+sqlite> SELECT * FROM productos;
+╭────┬───────────────────────────┬──────────┬─────────────┬───────╮
+│ id │          nombre           │  precio  │  categoria  │ stock │
+╞════╪═══════════════════════════╪══════════╪═════════════╪═══════╡
+│  1 │ Mouse gamer RGB           │   3200.0 │ Perifericos │    25 │
+│  2 │ Teclado mecanico gamer    │   8900.0 │ Perifericos │    15 │
+│  3 │ Auriculares gamer 7.1     │   6500.0 │ Perifericos │    20 │
+│  4 │ Alfombrilla XXL           │    750.0 │ Perifericos │    40 │
+│  5 │ Monitor 144hz 27 pulgadas │  45000.0 │ Monitores   │     8 │
+│  6 │ Monitor curvo ultrawide   │  68000.0 │ Monitores   │     5 │
+│  7 │ Placa de video RTX        │ 320000.0 │ Componentes │     4 │
+│  8 │ Memoria RAM 16GB          │  18500.0 │ Componentes │    18 │
+│  9 │ SSD 1TB                   │  22000.0 │ Componentes │    12 │
+│ 10 │ Silla gamer               │  95000.0 │ Muebles     │     6 │
+╰────┴───────────────────────────┴──────────┴─────────────┴───────╯
+
+
+CONSULTA #2
+sqlite> SELECT * FROM productos WHERE precio > 1000;
+╭────┬───────────────────────────┬──────────┬─────────────┬───────╮
+│ id │          nombre           │  precio  │  categoria  │ stock │
+╞════╪═══════════════════════════╪══════════╪═════════════╪═══════╡
+│  1 │ Mouse gamer RGB           │   3200.0 │ Perifericos │    25 │
+│  2 │ Teclado mecanico gamer    │   8900.0 │ Perifericos │    15 │
+│  3 │ Auriculares gamer 7.1     │   6500.0 │ Perifericos │    20 │
+│  5 │ Monitor 144hz 27 pulgadas │  45000.0 │ Monitores   │     8 │
+│  6 │ Monitor curvo ultrawide   │  68000.0 │ Monitores   │     5 │
+│  7 │ Placa de video RTX        │ 320000.0 │ Componentes │     4 │
+│  8 │ Memoria RAM 16GB          │  18500.0 │ Componentes │    18 │
+│  9 │ SSD 1TB                   │  22000.0 │ Componentes │    12 │
+│ 10 │ Silla gamer               │  95000.0 │ Muebles     │     6 │
+╰────┴───────────────────────────┴──────────┴─────────────┴───────╯
+
+
+CONSULTA #3
+sqlite> SELECT * FROM productos ORDER BY precio DESC;
+╭────┬───────────────────────────┬──────────┬─────────────┬───────╮
+│ id │          nombre           │  precio  │  categoria  │ stock │
+╞════╪═══════════════════════════╪══════════╪═════════════╪═══════╡
+│  7 │ Placa de video RTX        │ 320000.0 │ Componentes │     4 │
+│ 10 │ Silla gamer               │  95000.0 │ Muebles     │     6 │
+│  6 │ Monitor curvo ultrawide   │  68000.0 │ Monitores   │     5 │
+│  5 │ Monitor 144hz 27 pulgadas │  45000.0 │ Monitores   │     8 │
+│  9 │ SSD 1TB                   │  22000.0 │ Componentes │    12 │
+│  8 │ Memoria RAM 16GB          │  18500.0 │ Componentes │    18 │
+│  2 │ Teclado mecanico gamer    │   8900.0 │ Perifericos │    15 │
+│  3 │ Auriculares gamer 7.1     │   6500.0 │ Perifericos │    20 │
+│  1 │ Mouse gamer RGB           │   3200.0 │ Perifericos │    25 │
+│  4 │ Alfombrilla XXL           │    750.0 │ Perifericos │    40 │
+╰────┴───────────────────────────┴──────────┴─────────────┴───────╯
+
+
+CONSULTA #4
+sqlite> SELECT * FROM productos ORDER BY precio DESC LIMIT 3;
+╭────┬─────────────────────────┬──────────┬─────────────┬───────╮
+│ id │         nombre          │  precio  │  categoria  │ stock │
+╞════╪═════════════════════════╪══════════╪═════════════╪═══════╡
+│  7 │ Placa de video RTX      │ 320000.0 │ Componentes │     4 │
+│ 10 │ Silla gamer             │  95000.0 │ Muebles     │     6 │
+│  6 │ Monitor curvo ultrawide │  68000.0 │ Monitores   │     5 │
+╰────┴─────────────────────────┴──────────┴─────────────┴───────╯
+
+
+CONSULTA #5
+sqlite> SELECT categoria, COUNT(*) FROM productos GROUP BY categoria;
+╭─────────────┬──────────╮
+│  categoria  │ COUNT(*) │
+╞═════════════╪══════════╡
+│ Componentes │        3 │
+│ Monitores   │        2 │
+│ Muebles     │        1 │
+│ Perifericos │        4 │
+╰─────────────┴──────────╯
